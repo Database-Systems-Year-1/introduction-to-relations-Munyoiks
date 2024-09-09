@@ -52,3 +52,18 @@ VALUES ('Peshy',1122, 'head'),
        ('Rono',3344,'secretary'),
 	   ('Tony',4455, 'member');
 SELECT * FROM meeting;
+
+CREATE TABLE supply(
+name VARCHAR(255),
+ID INT,
+position VARCHAR(255)
+);
+
+INSERT INTO supply (name,ID,position)
+VALUES 
+    ('coke', 1, 'country'),
+    ('Fanta', 2, 'African'),
+    ('berry', 3, 'regional'),
+    ('passion', 4, 'county');
+
+SELECT * FROM supply;
