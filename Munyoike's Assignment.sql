@@ -51,4 +51,4 @@ VALUES ('Peshy',1122, 'head'),
        ('Mwikali',2233, 'treasurer'),
        ('Rono',3344,'secretary'),
 	   ('Tony',4455, 'member');
-SELECT*FROM
+SELECT * FROM
