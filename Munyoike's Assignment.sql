@@ -39,3 +39,16 @@ DROP COLUMN ID;
 
 SELECT * FROM footballers;
 DROP TABLE footballers;
+
+CREATE TABLE meeting(
+name VARCHAR(255),
+ID int,
+position VARCHAR(255)
+);
+
+INSERT INTO meeting(name,ID,position)
+VALUES ('Peshy',1122, 'head'),
+       ('Mwikali',2233, 'treasurer'),
+       ('Rono',3344,'secretary'),
+	   ('Tony',4455, 'member');
+SELECT*FROM
